@@ -9,7 +9,7 @@
 #a2 {
     background-color: green;
     top: 100px;
-    left: 0px;
+    left: 1000px;
     width: 150px;
     height: 500px;
     
@@ -18,7 +18,7 @@
 #a3 {
     background-color: purple;
     top: 100px;
-    left: 0px;
+    left: 1550px;
     height: 500px;
     width: 150px;
 }
@@ -26,7 +26,7 @@
 #a4 {
     background-color: lightyellow;
     top: 100px;
-    left: 550px;
+    left: 1150px;
     height: 500px;
     width: 400px;
 }
@@ -38,3 +38,5 @@
     height: 100px;
     width: 2000px;
 }
+
+#a6 {display: flex;}
