@@ -1,31 +1,32 @@
 #a1 {
     background-color: red;
     top: 0px;
-    left: 1000px;
-    width: 700px;
-    height: 100px
+    left: 0px;
+    width: 2000px;
+    height: 100px;
 }
 
 #a2 {
     background-color: green;
     top: 100px;
-    left:1000px;
-    height: 500px;
+    left: 0px;
     width: 150px;
+    height: 500px;
+    
 }
 
 #a3 {
     background-color: purple;
     top: 100px;
-    left: 1550px;
+    left: 0px;
     height: 500px;
-    width: 150px
+    width: 150px;
 }
 
 #a4 {
     background-color: lightyellow;
     top: 100px;
-    left: 1150px;
+    left: 550px;
     height: 500px;
     width: 400px;
 }
@@ -35,5 +36,5 @@
     top: 600px;
     left: 1000px;
     height: 100px;
-    width: 700px;
+    width: 2000px;
 }
