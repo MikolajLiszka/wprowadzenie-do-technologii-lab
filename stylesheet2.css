@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: verdana;
 }
 #header-bar {
     background-color: #232323;
@@ -26,6 +27,11 @@ body {
 #title {
     padding-top: 20px;
 }
+#undertitle {
+    color: cadetblue;
+    font-style: normal;
+    text-align: center;
+}
 #about-us {
     display: flex;
     font-size: 20px;
@@ -45,6 +51,7 @@ body {
     height: 200px;
     border-radius: 50%;
     opacity: 0.7;
+    text-align: center;
 }
 #circle1:hover {
     opacity: 0.85;
@@ -56,6 +63,7 @@ body {
     border-radius: 50%;
     margin-left: -30px;
     opacity: 0.7;
+    text-align: center;
 }
 #circle3 {
     background-color: #4f9ae0;
@@ -64,9 +72,31 @@ body {
     border-radius: 50%;
     margin-left: -30px;
     opacity: 0.7;
+    text-align: center;
+
 }
 #circle2:hover {
     opacity: 0.85;
+}
+#topics {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+ul {
+list-style-type: none;
+}
+#topic1 {
+    margin: 10px;
+}
+#topic2 {
+    margin: 10px;
+}
+#topic3 {
+    margin: 10px;
+}
+#topic4 {
+    margin: 10px;
 }
 #footer {
     background-color: #232d2f;
@@ -74,4 +104,14 @@ body {
     background-repeat: repeat-x;
     margin-top: 40px;
     height: 200px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
 } 
+h4 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #aaa;
+    text-align: center;
+}
