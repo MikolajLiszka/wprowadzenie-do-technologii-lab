@@ -97,22 +97,22 @@ body {
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 #topic1 {
-    margin: 10px;
+    margin: 20px;
     width: 250px;
 }
 #topic2 {
-    margin: 10px;
+    margin: 20px;
     width: 250px;
 }
 #topic3 {
-    margin: 10px;
+    margin: 20px;
     width: 250px;
 }
 #topic4 {
-    margin: 10px;
+    margin: 20px;
     width: 250px;
 }
 #footer {
