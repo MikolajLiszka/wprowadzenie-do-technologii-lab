@@ -1,20 +1,79 @@
 body {
     width: 639px;
     font-family: Arial, Helvetica, sans-serif;
+}
 
+main {
+    background: #252a3a;
 }
 
 #menu {
     text-align: right;
 }
 
-#compose-button {
-    text-align: center;
+#compose {
+    text-align: center;  
 }
 
-a {
+.menu-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #252a3a;
+    border-style: none;
+    font: 16px;
+    color: #1b98f8;
+}
+
+.compose-button {
+    border-radius: 20%;
+    background: #252a3a;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font: 16px;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 100%;
+    background: #1b98f8;
+}
+
+.button {
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-style: none;
+    background: #252a3a;   
+    font: 16px;
+    color: white;
+}
+
+.labels {
+    font: 16px;
+    color: white;
+    opacity: 50%;
+}
+
+section {
+    width: 350px;
+    height: 100%;
+
+}
+
+#mail1:hover {
+    color:#eee;
+}
+
+.profile-pic {
+    width: 42px;
+    height: 42px;
+    border-radius: 3px;
+    margin-left: 8px;
+}
+
+.name-surmane {
+    font: 13px;
+    color: #999;
+    text-transform: uppercase;
 }
 
