@@ -55,9 +55,15 @@ main {
 }
 
 section {
-    width: 350px;
+    width: 639px;
     height: 100%;
+}
 
+#mail1 {
+    padding-top: 12px;
+    display: flex;
+    margin-left: 18px;
+    border-bottom: 1px solid grey;
 }
 
 #mail1:hover {
@@ -68,12 +74,51 @@ section {
     width: 42px;
     height: 42px;
     border-radius: 3px;
-    margin-left: 8px;
+    margin-right: 8px;
 }
 
-.name-surmane {
-    font: 13px;
+.text {
+    width: 350px;
+}
+
+.name-surname {
+    font-size: 13px;
     color: #999;
     text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
+.title {
+    font-size: 16px;
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.mail-text {
+    color: black;
+    font-size: 13px;
+    margin: 7px 0;
+    padding-top: 14px;
+    padding-bottom: 16px;
+}
+
+.mail2-3 {
+    border-left: 6px solid #1b98f8;
+    display: flex;   
+    padding-left: 12px;
+    padding-top: 12px;
+    border-bottom: 1px solid grey;
+}
+
+.mail4-7 {
+    display: flex;
+    padding-top: 12px;
+    margin-left: 18px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid grey;
+}
+
+
 
