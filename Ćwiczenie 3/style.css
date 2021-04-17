@@ -120,5 +120,25 @@ section {
     border-bottom: 1px solid grey;
 }
 
+#mail-up {
+    display: flex;
+}
+
+.main-mail-title {
+    font-size: 32px;
+    color: black;
+}
+
+.main-mail-undertitle {
+    font-size: 16px;
+    color: black;
+}
+
+.blue-text {
+    color: #1b98f8;
+}
+
+
+
 
 
