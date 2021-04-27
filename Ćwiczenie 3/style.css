@@ -1,6 +1,7 @@
 body {
-    width: 639px;
+    max-width: 639px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 main {
@@ -84,19 +85,17 @@ main {
   }
 
 section {
-    width: 639px;
+    max-width: 639px;
     height: 100%;
 }
 
 #mail1 {
-    padding-top: 12px;
     display: flex;
-    margin-left: 18px;
     border-bottom: 1px solid grey;
 }
 
 #mail1:hover {
-    color:#eee;
+    background-color:#eee;
 }
 
 .profile-pic {
@@ -150,7 +149,7 @@ section {
 }
 
 #mail {
-    width: 639px;
+    width: 100%;
 }
 
 #mail-up {
@@ -172,8 +171,9 @@ section {
 
 #main-mail-right {
     margin-right: 18px;
+    width: 639px;
+    display: flex-end;
     text-align: right;
-    width: 629px;
 }
 
 .button2 {
@@ -206,7 +206,23 @@ section {
     font-size: 16px;
 }
 
+@media screen and (min-width: 639px) {
+    body {
+        display: grid;
+        grid-template-columns: 150px auto;  
+        width: 100%;    
+    }
 
+    section2 {
+        grid-column: 3; grid-row: 1;
+        width: auto;
+    }
+
+    #main-mail-right {
+        display: flex-end;
+    }
+
+}
 
 
 
