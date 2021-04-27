@@ -22,30 +22,34 @@ main {
     border-style: none;
     font: 16px;
     color: #1b98f8;
+    cursor: pointer;
 }
 
 .compose-button {
     border-radius: 20%;
     background: #252a3a;
     border-style: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
     font: 16px;
     color: white;
     border-radius: 20px;
-    width: 150px;
+    width: 90px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     height: 100%;
     background: #1b98f8;
+    cursor: pointer;
 }
 
 .button {
     display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     border-style: none;
     background: #252a3a;   
     font: 16px;
     color: white;
+    cursor: pointer;
+    display: flex;
 }
 
 .labels {
@@ -53,6 +57,31 @@ main {
     color: white;
     opacity: 50%;
 }
+
+.square1 {
+    width: 14px;
+    height: 14px;
+    background-color: yellow;
+    border-radius: 20%;
+    margin-right: 8px;
+  }
+
+.square2 {
+    width: 14px;
+    height: 14px;
+    background-color: aqua;
+    border-radius: 20%;
+    margin-right: 8px;
+}
+
+.square3 {
+    width: 14px;
+    height: 14px;
+    background-color: green;
+    border-radius: 20%;
+    margin-right: 8px;
+    margin-bottom: 20px;
+  }
 
 section {
     width: 639px;
@@ -120,22 +149,61 @@ section {
     border-bottom: 1px solid grey;
 }
 
+#mail {
+    width: 639px;
+}
+
 #mail-up {
     display: flex;
+    border-bottom: 1px solid grey;
 }
 
 .main-mail-title {
     font-size: 32px;
     color: black;
+    margin-left: 18px;
 }
 
 .main-mail-undertitle {
     font-size: 16px;
     color: black;
+    margin-left: 18px;
 }
 
-.blue-text {
+#main-mail-right {
+    margin-right: 18px;
+    text-align: right;
+    width: 629px;
+}
+
+.button2 {
+    border-radius: 20%;
+    background: white;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font: 16px;
+    color: #666;
+    border-radius: 20px;
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.blue-link {
     color: #1b98f8;
+    text-decoration: none;
+}
+
+.grey-link {
+    color: #999;
+    text-decoration: none;
+}
+
+.mail-text2 {
+    padding-top: 10px;
+    margin: 16px;
+    font-size: 16px;
 }
 
 
