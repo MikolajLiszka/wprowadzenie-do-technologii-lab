@@ -1,7 +1,7 @@
 body {
-    max-width: 639px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    height: 100%;
 }
 
 main {
@@ -92,6 +92,8 @@ section {
 #mail1 {
     display: flex;
     border-bottom: 1px solid grey;
+    margin-left: 18px;
+    margin-top: 8px;
 }
 
 #mail1:hover {
@@ -160,32 +162,37 @@ section {
 .main-mail-title {
     font-size: 32px;
     color: black;
+    margin: 0;
+    margin-top: 35px;
     margin-left: 18px;
 }
 
 .main-mail-undertitle {
     font-size: 16px;
     color: black;
+    margin: 0;
     margin-left: 18px;
+    margin-bottom: 12px;
 }
 
 #main-mail-right {
     margin-right: 18px;
-    width: 639px;
+    width: 100%;
     display: flex-end;
     text-align: right;
 }
 
+
 .button2 {
     border-radius: 20%;
     background: white;
-    border-style: none;
+    border-style: solid;
     padding-top: 10px;
     padding-bottom: 10px;
     font: 16px;
     color: #666;
     border-radius: 20px;
-    width: 100px;
+    width: 75px;
     height: 100%;
     cursor: pointer;
 }
@@ -216,10 +223,25 @@ section {
     section2 {
         grid-column: 3; grid-row: 1;
         width: auto;
+        border-left: solid 1px grey;
     }
 
     #main-mail-right {
         display: flex-end;
+    }
+
+    #main-mail-left {
+        width: 100%;
+    }
+
+    main {
+        width: 150px;
+        height: 2000px;
+    }
+
+    .first-button {
+        float: right;
+        width: auto;
     }
 
 }
