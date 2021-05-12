@@ -1,0 +1,48 @@
+body {
+    background-color: teal;
+}
+
+section {
+    display: flex;
+}
+
+button {
+    border-radius: 20%;
+    background-color: indianred;
+    color: ivory;
+    border: solid 1px white;
+    width: auto;
+    height: auto;
+}
+
+#box1 {
+    background-color: white;
+}
+
+.title1 {
+    color: blue;
+    font-size: 23px;
+    border-bottom: solid 1px black;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.list {
+    text-align: left;
+}
+
+.price {
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+.title2 {
+    color: blue;
+    font-size: 23px;
+    border-bottom: solid 1px black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
