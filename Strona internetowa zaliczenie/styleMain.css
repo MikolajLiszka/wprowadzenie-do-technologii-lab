@@ -3,19 +3,30 @@ body {
     font-family:'Times New Roman', Times, serif;
 }
 
-nav ul {
-    list-style: none;
-    width: 300px;
-    white-space: nowrap;
+#menu {
+    width: 599px;
+    position: absolute;
+    top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-li a {
-    display: inline-block;
+#menu a {
+    text-decoration: none;
+    padding: 10px;
+    color: goldenrod;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid goldenrod;
 }
 
 header {
     background-color: black;
     padding-bottom: 10px;
+    width: 639px;
 }
 
 h1 {
@@ -24,7 +35,7 @@ h1 {
     font-size: 40px;
 }
 
-.bialyTekst {
+.white-text {
     color: white;
     text-align: center;
     font-size: 25px;
@@ -63,11 +74,6 @@ h2 {
 
 .main-text {
     text-align: center;
-}
-
-#recent-work {
-    display: inline-block;
-    justify-content: center;
 }
 
 h4 {
