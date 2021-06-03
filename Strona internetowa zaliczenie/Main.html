@@ -33,11 +33,11 @@
                 </ul>
             </nav>
         </div>
-        <h1>Responsive design</h1>
-        <p class="white-text">Topo is designed to work brilliant at any resolution - from desktop to mobile</p>
-        <div id="button">
-            <button>TRY NOW!</button>
-        </div>
+            <h1>Responsive design</h1>
+            <p class="white-text">Topo is designed to work brilliant at any resolution - from desktop to mobile</p>
+            <div id="button">
+                <button>TRY NOW!</button>
+            </div>
     </header>
     <main>
         <h2>Our Process</h2>
@@ -97,17 +97,38 @@
     </section>
     <footer>
         <ul>
-            <li>
-                <h5>NEWSLETTER SIGNUP</h5>                
+            <li> 
+                <form action="action_page.php">
+                    <div class="container">
+                        <h5>NEWSLETTER SIGNUP</h5> 
+                    </div>
+                    <div class="container">
+                        <input type="text" placeholder="Email address" name="mail" required>
+                    </div>
+                    <div class="container">
+                        <input type="submit" value="Subscribe">
+                      </div>
+                </form>            
             </li>
             <li>
                 <h5>RECENT TWEETS</h5>               
             </li>
             <li>
-                <h5>RECENT POSTS</h5>               
+                <h5>RECENT POSTS</h5>     
+                <ul id="recent-posts">
+                    <li><a href="">Our team story</a></li>
+                    <li><a href="">Latest design trends</a></li>
+                    <li><a href="">Meet our new developer</a></li>
+                    <li><a href="">We've just opened a new office!</a></li>
+                </ul>          
             </li>
             <li>
-                <h5>MAIN OFFICE</h5>                
+                <h5>MAIN OFFICE</h5>  
+                <ul id="main-office">
+                    <li>30 St Mary Axe<br>London, EC3A 8EP<br>United Kingdom</li>
+                    <li>+44 20 7071 5012</li>
+                    <li>sayhello@topo.com</li>
+                </ul>              
             </li>
         </ul>
     </footer>
