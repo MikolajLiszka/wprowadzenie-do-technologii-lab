@@ -1,8 +1,8 @@
+
+
 body {
     width: 639px;
-    font-family:'Times New Roman', Times, serif;
     margin: 0;
-    padding: 0 0 50px;
 }
 
 #menu {
@@ -46,6 +46,21 @@ main:before {
     border-bottom: 100px solid white;
 }
 
+header h1 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+header img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 
 h1 {
     color: white;
@@ -78,12 +93,24 @@ text-decoration:none;
 text-shadow:0px 1px 0px #ffffff;
 }
 
+
+
 main {
     background-color: white; 
 }
 
+main .main-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 34px;
+}
+
 h2 {
     text-align: center;
+}
+
+main h2 {
+    margin-top: 10px;
 }
 
 #main-list {
@@ -94,17 +121,50 @@ h2 {
     text-align: center;
 }
 
+section .image {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+section .image-circle {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+section h4 p {
+    text-align: center;
+}
+
+.signature {
+    text-align: center;
+}
+
 h4 {
     margin: 2px;
+    text-align: center;
 }
 
 .signature {
     margin: 2px;
 }
 
+#clients {
+    background-image: url(background\art.png);
+    
+}
+
 #clients-text {
     text-align: center;
     border-bottom: 1px solid black;
+}
+
+.sign {
+    display: block;
+    margin: 0 auto;
+    max-width: 144px;
 }
 
 h5 {
@@ -116,8 +176,22 @@ footer {
     background-color: black;
 }
 
+footer h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer .footer-icon {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
 ul {
     padding: 0px;
+}
+
+footer ul {
+    margin-bottom: 0px;
 }
 
 #recent-posts ul {
