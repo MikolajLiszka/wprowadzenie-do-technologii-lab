@@ -13,6 +13,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
 }
 
 #menu a {
@@ -59,7 +60,7 @@ h1 {
 }
 
 .article-opacity h3 {
-    margin-right: 10px;
+    margin-right: 10px;  
 }
 
 #left-title-top {
@@ -73,6 +74,10 @@ h1 {
     text-align: left;
     background-color: #ebebeb;
     opacity: 70%;
+}
+
+#article-opacity p {
+    margin-bottom: 0px;
 }
 
 #invisible {
@@ -89,7 +94,7 @@ article p {
     background-image: url(banner-1391996_1920.jpg);
 }
 
-main {
+/*main {
     border-left: 1px solid black;
 }
 
@@ -143,6 +148,64 @@ article {
 
 #Credits h3 {
     margin-left: 30px;
+}*/
+
+.article1-2 {
+    width: 300px;
+    text-align: left;
+}
+
+.row1-2 {
+    width: 300px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.row1-2 h3 {
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.row3 ul {
+    margin-bottom: 0px;
+    margin-left: 30px;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.row1-2 p {
+    margin-bottom: 0px;
+}
+
+.row3 {
+    width: 300px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.row3 h3 {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.overview h3 {
+    margin-left: 30px;
+}
+
+.overview p {
+    margin-left: 30px;
+}
+
+.credits h3 {
+    margin-left: 30px;
+}
+
+.credits ul {
+    margin-left: 30px;
+    list-style: none;
 }
 
 h5 {
