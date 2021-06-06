@@ -297,7 +297,12 @@ form .container {
 #recent-posts a {
     text-decoration: none;
     color: white;
+}
+
+.line-recent-posts {
     border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 
