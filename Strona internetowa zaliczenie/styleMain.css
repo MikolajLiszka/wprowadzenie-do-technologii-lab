@@ -6,7 +6,7 @@ body {
 }
 
 #menu {
-    width: 599px;
+    width: 100%;
     position: absolute;
     top: 2px;
     display: flex;
@@ -43,7 +43,7 @@ main:before {
     top: -100px;
     right: 0;
     max-width: 100%;
-    border-left: 100vw solid transparent;
+    border-left: 120vw solid transparent;
     border-bottom: 100px solid white;
 }
 
@@ -117,14 +117,21 @@ main h2 {
     display: inline-block;
 }
 
+main p {
+    width: 206px;
+    text-align: center;
+    margin-left: 216.5px;
+    margin-right: 216.5px;
+}
+
 .main-text {
     text-align: center;
 }
 
 section .image {
     display: block;
-    margin: 0 auto;
-    max-width: 500px;
+    margin: 0;
+    max-width: 100%;
 }
 
 section .image-circle {
@@ -153,18 +160,24 @@ h4 {
 
 #clients {
     background-color: blanchedalmond;
-    background-image: url(background\ art.png   );   
+    background-image: url(background\ art2.png);   
+}
+
+#clients h2 {
+    padding-top: 20px;
 }
 
 #clients-text {
     text-align: center;
     border-bottom: 1px solid black;
+    padding-bottom: 20px;
 }
 
 .sign {
     display: block;
     margin: 0 auto;
     max-width: 144px;
+    padding-bottom: 20px;
 }
 
 h5 {
@@ -388,5 +401,54 @@ form .container {
 
   .rights-reserved {
       margin-left: 346px;
+  }
+
+  @media screen and (min-width:640px)
+  {
+      body {
+          width: 100%;
+          display: inline-grid;
+          
+    }
+
+      header {
+        background-color: black;
+        padding-bottom: 10px;
+        width: 100%;
+        height: 600px;
+        padding-bottom: 0px;
+        background-image: url(iPhone.png);
+    }
+
+    
+
+    #menu {
+        width: 100%;
+        position: absolute;
+        top: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+    }
+
+    main:before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        right: 0;
+        max-width: 100%;
+        border-left: 140vw solid transparent;
+        border-bottom: 100px solid white;
+    }
+
+    main #main-list {
+        display: flex;
+        text-align: center;
+        list-style: none;
+        justify-content: center;
+    }
+
   }
 
