@@ -32,6 +32,10 @@ header {
     height: 100px;
 }
 
+header img {
+    padding-right: 500px;
+}
+
  /*#title {
     position: relative;
   }

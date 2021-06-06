@@ -11,7 +11,7 @@
     <header>
         <div id="top">
             <div id="logo">
-                <img src="https://picsum.photos/120/53" alt="#">
+                <img src="LOGO.png" alt="#">
             </div>
             <nav>
                 <ul id="menu">
@@ -97,10 +97,10 @@
     </section>
     <footer>
         <ul>
-            <li> 
-                <img class="footer-icon" src="newsletter icon.png" alt="#">
+            <li>                
                 <form action="action_page.php">
-                    <div class="container">
+                    <div class="footer-icon-position">
+                        <img class="footer-icon" src="newsletter icon.png" alt="#">
                         <h5>NEWSLETTER SIGNUP</h5> 
                     </div>
                     <div class="container">
@@ -109,15 +109,41 @@
                     <div class="container">
                         <input type="submit" value="Subscribe">
                       </div>
-                </form>            
+                </form>    
+                <div id="bottom-newsletter">
+                    <h6>Work</h6>
+                    <h6>Blog</h6>
+                    <h6>About</h6>
+                    <h6>Contact</h6>
+                </div>        
             </li>
             <li>
-                <img class="footer-icon" src="tweets icon.png" alt="#">
-                <h5>RECENT TWEETS</h5>               
+                <div class="footer-icon-position">
+                    <img class="footer-icon" src="tweets icon.png" alt="#">
+                    <h5>RECENT TWEETS</h5>
+                </div>
+                <ul id="recent-tweets">
+                    <li>
+                        <div class="tweet1">
+                            <img class="twitter-icon" src="twitter szary.png" alt="">
+                            <p><a href="#">@Andrew_fr - </a>Check out<br>this great #themmeforest item!</p>
+                        </div>
+                        <p class="time">5 min. ago</p>
+                    </li>
+                    <li>
+                        <div class="tweet1">
+                            <img class="twitter-icon" src="twitter szary.png" alt="">
+                            <p><a href="#">@unk_themes @Johndoe</a><br>Check out this great<br>#graphicriver item!</p>
+                        </div>
+                        <p class="time">1 min. ago</p>
+                    </li>
+                </ul>               
             </li>
             <li>
-                <img class="footer-icon" src="posts icon.png" alt="#">
-                <h5>RECENT POSTS</h5>     
+                <div class="footer-icon-position">
+                    <img class="footer-icon" src="posts icon.png" alt="#">
+                    <h5>RECENT POSTS</h5> 
+                </div>    
                 <ul id="recent-posts">
                     <li><a href="">Our team story</a></li>
                     <li><a href="">Latest design trends</a></li>
@@ -126,8 +152,10 @@
                 </ul>          
             </li>
             <li>
-                <img class="footer-icon" src="Moustache.png" alt="#">
-                <h5>MAIN OFFICE</h5>  
+                <div class="footer-icon-position">
+                    <img class="footer-icon" src="Moustache.png" alt="#">
+                    <h5>MAIN OFFICE</h5>  
+                </div>
                 <ul id="main-office">
                     <li>30 St Mary Axe<br>London, EC3A 8EP<br>United Kingdom</li>
                     <li>+44 20 7071 5012</li>
@@ -135,6 +163,17 @@
                 </ul>              
             </li>
         </ul>
+        <div id="footer-bottom">
+            <div class="social-media">
+                <img src="Facebook.png" alt="#">
+                <img src="Twitter.png" alt="#">
+                <img src="Behance.png" alt="#">
+                <img src="Instagram.png" alt="#">
+            </div>
+            <div class="rights-reserved">
+                <img src="© 2013 Topo. All rights Reserved..png" alt="#">
+            </div>
+        </div>
     </footer>
 </body>
 </html>
