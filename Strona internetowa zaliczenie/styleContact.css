@@ -1,0 +1,53 @@
+body {
+    width: 639px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0 0 50px;
+}
+
+#menu {
+    width: 639px;
+    position: absolute;
+    top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 10px;
+    color: goldenrod;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid goldenrod;
+}
+
+header {
+    background-color: black;
+    padding-bottom: 10px;
+    width: 639px;
+    height: 100px;
+}
+
+header img {
+    padding-right: 500px;
+}
+
+h1 {
+    text-align: left;
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+#background-the-lates-from-the-office {
+    background-image: url(banner-1391996_1920.jpg);
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 10px;
+}
