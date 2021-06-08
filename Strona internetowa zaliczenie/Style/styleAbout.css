@@ -18,11 +18,11 @@ body {
 #menu a {
     text-decoration: none;
     padding: 10px;
-    color: goldenrod;
+    color: #c9a686;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid goldenrod;
+    border-bottom: 1px solid #c9a686;
 }
 
 nav ul {
@@ -88,7 +88,7 @@ button {
     border:1px solid  white;
     display: inline-block;
     cursor: pointer;
-    color: goldenrod;
+    color: #c9a686;
     font-family: Arial;
     font-size: 14px;
     font-weight: bold;
@@ -165,7 +165,7 @@ h4 {
 
 
 h5 {
-    color: goldenrod;
+    color: #c9a686;
 }
 
 footer {
@@ -217,7 +217,7 @@ input[type=text] {
     width: 200px;
     padding: 10px;
     margin: 6px 0;
-    border: 1px solid goldenrod;
+    border: 1px solid #c9a686;
     box-sizing: border-box;
     border-radius:15px;
 
@@ -227,8 +227,8 @@ input[type=text] {
     width: 100px;
     padding: 2px;
     margin: 6px 0;
-    border: 1px solid goldenrod;
-    background-color: goldenrod;
+    border: 1px solid #c9a686;
+    background-color: #c9a686;
     box-sizing: border-box;
     border-radius:15px;
   }

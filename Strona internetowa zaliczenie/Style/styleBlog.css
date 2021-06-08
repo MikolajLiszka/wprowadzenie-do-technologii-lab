@@ -19,11 +19,11 @@ body {
 #menu a {
     text-decoration: none;
     padding: 10px;
-    color: goldenrod;
+    color: #c9a686;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid goldenrod;
+    border-bottom: 1px solid #c9a686;
 }
 
 header {
@@ -38,105 +38,122 @@ header img {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
 }
 
-.article-opacity {
+#background-the-lates-from-the-office {
+    background-image: url(banner-1391996_1920.jpg);
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 10px;
+}
+
+#title {
+    position: relative;
+}
+
+#title:before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: 0;
+    max-width: 100%;
+    border-left: 160vw solid transparent;
+    border-bottom: 100px solid white;
+    margin-bottom: 0px;
+}
+
+main .main-picture {
+    width: 318px;
+    height: 218px;;
+}
+
+main .box-picture {
+    width: 318px;
+    margin-left: 160.5px;
+    margin-right: 160.5px;
+    border-top: 1px solid #c9a686;
+}
+
+main .box {
+    width: 318px;
+    margin-left: 160.5px;
+    margin-right: 160.5px;
+    border-right: 1px solid #c9a686;
+    border-left: 1px solid #c9a686;
+    border-top: 1px solid #c9a686;
+    border-bottom: 1px solid #c9a686;
+}
+
+main h3 {
+    margin-left: 20px;
+    color: #c9a686;
+}
+
+main p {
+    margin-left: 20px;
+}
+
+main .reactions {
     display: flex;
 }
 
-.article-opacity h3 {
-    margin-right: 10px;  
+main .reaction {
+    padding: 0px 43px;
 }
 
-#left-title-top {
-    border-right: 1px solid black;
-    padding-right: 10px;
-    margin-left: 60px;
+.box {
+    margin-bottom: 10px;
 }
 
-#article-opacity {
-    width: 300px;
-    text-align: left;
-    background-color: #ebebeb;
-    opacity: 70%;
+.box-picture {
+    margin-bottom: 10px;
 }
 
-#article-opacity p {
-    margin-bottom: 0px;
+.reactions p {
+    color: #c9a686;
 }
 
-#invisible {
-    padding-bottom: 100px;
+.box-picture {
+    border-right: 1px solid #c9a686;
+    border-left: 1px solid #c9a686;
+    border-bottom: 1px solid #c9a686;
 }
 
-article p {
-    margin-top: 0px;
-    padding-bottom: 20px;
-    margin-left: 30px;
+.reactions {
+    border-top: 1px solid #c9a686;
 }
 
-#photo {
-    background-image: url(banner-1391996_1920.jpg);
+.calendar {
+    border-right: 1px solid #c9a686;
+    padding-top: 5px;
 }
 
-.article1-2 {
-    width: 300px;
-    text-align: left;
+.comments {
+    border-right: 1px solid #c9a686;
+    padding-top: 6px;
 }
 
-.row1-2 {
-    width: 300px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    padding-top: 20px;
+.likes {
+    padding-top: 5px;
 }
 
-.row1-2 h3 {
-    margin-top: 0px;
-    text-align: left;
-    margin-left: 30px;
+.calendar p {
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
-.row3 ul {
-    margin-bottom: 0px;
-    margin-left: 30px;
-    list-style: none;
-    padding-bottom: 20px;
+.comments p {
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
-.row1-2 p {
-    margin-bottom: 0px;
-}
-
-.row3 {
-    width: 300px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.row3 h3 {
-    text-align: left;
-    margin-top: 0px;
-    margin-left: 30px;
-}
-
-.overview h3 {
-    margin-left: 30px;
-}
-
-.overview p {
-    margin-left: 30px;
-}
-
-.credits h3 {
-    margin-left: 30px;
-}
-
-.credits ul {
-    margin-left: 30px;
-    list-style: none;
+.likes p {
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 h5 {
@@ -192,7 +209,7 @@ input[type=text] {
     width: 200px;
     padding: 10px;
     margin: 6px 0;
-    border: 1px solid goldenrod;
+    border: 1px solid #c9a686;
     box-sizing: border-box;
     border-radius:15px;
 
@@ -202,8 +219,8 @@ input[type=text] {
     width: 100px;
     padding: 2px;
     margin: 6px 0;
-    border: 1px solid goldenrod;
-    background-color: goldenrod;
+    border: 1px solid #c9a686;
+    background-color: #c9a686;
     box-sizing: border-box;
     border-radius:15px;
   }
@@ -361,7 +378,3 @@ form .container {
   .rights-reserved {
       margin-left: 346px;
   }
-
-
-
-

@@ -1,36 +1,48 @@
 
 
 body {
-    width: 639px;
     margin: 0;
-    padding: 0 0 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
 }
 
-#menu {
-    width: 100%;
-    position: absolute;
-    top: 2px;
+@media screen and (min-width:1240px)
+  {
+      body {
+          width: 100%;
+          display: grid;
+          
+    }
+}
+
+.top-bar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     list-style: none;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     padding: 10px;
-    color: goldenrod;
+    color: #c9a686;
 }
 
-#menu a:hover {
-    border-bottom: 1px solid goldenrod;
+.menu a:hover {
+    border-bottom: 1px solid #c9a686;
 }
 
 header {
     background-color: black;
     padding-bottom: 10px;
-    width: 639px;
     height: 300px;
 }
 
@@ -43,7 +55,6 @@ main:before {
     position: absolute;
     top: -100px;
     right: 0;
-    max-width: 100%;
     border-left: 120vw solid transparent;
     border-bottom: 100px solid white;
 }
@@ -87,9 +98,9 @@ button {
     display: inline-block;
     cursor: pointer;
     color: black;
-    font-family: Arial;
-    font-size: 14px;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     padding: 12px 16px;
     text-decoration: none;
 }
@@ -103,7 +114,7 @@ main {
 main .main-img {
     display: block;
     margin: 0 auto;
-    max-width: 34px;
+    max-width: 35px;
 }
 
 h2 {
@@ -114,15 +125,15 @@ main h2 {
     margin-top: 10px;
 }
 
-#main-list {
-    display: inline-block;
+ul {
+    list-style: none;
 }
 
-main p {
-    width: 206px;
+main li {
+    max-width: 205px;
     text-align: center;
-    margin-left: 216.5px;
-    margin-right: 216.5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-text {
@@ -177,7 +188,7 @@ h4 {
 .sign {
     display: block;
     margin: 0 auto;
-    max-width: 144px;
+    max-width: 145px;
     padding-bottom: 20px;
 }
 
@@ -210,8 +221,8 @@ footer ul {
 }
 
 footer .list-footer {
-    margin-right: 216.5px;
-    margin-left: 216.5px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #bottom-newsletter {
@@ -234,7 +245,7 @@ input[type=text] {
     width: 200px;
     padding: 10px;
     margin: 6px 0;
-    border: 1px solid goldenrod;
+    border: 1px solid #c9a686;
     box-sizing: border-box;
     border-radius:15px;
 
@@ -244,8 +255,8 @@ input[type=text] {
     width: 100px;
     padding: 2px;
     margin: 6px 0;
-    border: 1px solid goldenrod;
-    background-color: goldenrod;
+    border: 1px solid #c9a686;
+    background-color: #c9a686;
     box-sizing: border-box;
     border-radius:15px;
   }
@@ -404,11 +415,11 @@ form .container {
       margin-left: 346px;
   }
 
-  @media screen and (min-width:640px)
+  @media screen and (min-width:1240px)
   {
       body {
           width: 100%;
-          display: inline-grid;
+          display: grid;
           
     }
 
@@ -419,6 +430,13 @@ form .container {
         height: 600px;
         padding-bottom: 0px;
         background-image: url(iPhone.png);
+        background-repeat: no-repeat;
+    }
+
+    header #logo {
+        position: absolute;
+        top: 2px;
+        left: 200px;
     }
 
     
@@ -427,6 +445,7 @@ form .container {
         width: 100%;
         position: absolute;
         top: 2px;
+        right: 200px;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -449,6 +468,63 @@ form .container {
         text-align: center;
         list-style: none;
         justify-content: center;
+        width: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin: 0px auto;
+    }
+
+    .row-no1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .row-no2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #recent-work img {
+        padding: 5px;
+    }
+
+    section .the-team {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .image-circle {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    footer {
+        height: 300px;
+        margin-bottom: 0px;
+    }
+
+    footer .list-footer {
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+    .list-footer {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        padding-bottom: 0px;
+    }
+
+    footer .social-media {
+        position: absolute;
+        left: 200px;
+    }
+
+    footer .rights-reserved {
+        position: absolute;
+        right: 200px;
     }
 
   }
