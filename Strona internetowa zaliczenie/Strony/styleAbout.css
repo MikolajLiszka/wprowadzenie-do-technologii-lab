@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0 0 50px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .top-bar {
@@ -50,7 +51,7 @@ main:before {
     top: -100px;
     right: 0;
     max-width: 100%;
-    border-left: 120vw solid transparent;
+    border-left: 150vw solid transparent;
     border-bottom: 100px solid white;
 }
 
