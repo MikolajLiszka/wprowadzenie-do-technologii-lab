@@ -9,9 +9,7 @@ body {
 @media screen and (min-width:1240px)
   {
       body {
-          width: 100%;
-          display: grid;
-          
+          width: 100%;         
     }
 }
 
@@ -87,7 +85,7 @@ h1 {
     font-size: 25px;
 }
 
-#button {
+.button {
     text-align: center;
 }
 
@@ -107,11 +105,11 @@ button {
 
 
 
-main {
+.main {
     background-color: white; 
 }
 
-main .main-img {
+.main .main-img {
     display: block;
     margin: 0 auto;
     max-width: 35px;
@@ -121,7 +119,7 @@ h2 {
     text-align: center;
 }
 
-main h2 {
+.main h2 {
     margin-top: 10px;
 }
 
@@ -129,7 +127,7 @@ ul {
     list-style: none;
 }
 
-main li {
+.main li {
     max-width: 205px;
     text-align: center;
     margin-left: auto;
@@ -146,6 +144,8 @@ section .image {
     max-width: 100%;
 }
 
+
+
 section .image-circle {
     display: block;
     margin: 0 auto;
@@ -153,7 +153,7 @@ section .image-circle {
     border-radius: 50%;
 }
 
-section h4 p {
+section h3 p {
     text-align: center;
 }
 
@@ -161,7 +161,7 @@ section h4 p {
     text-align: center;
 }
 
-h4 {
+h3 {
     margin: 2px;
     text-align: center;
 }
@@ -170,16 +170,16 @@ h4 {
     margin: 2px;
 }
 
-#clients {
+.clients {
     background-color: blanchedalmond;
     background-image: url(background\ art2.png);   
 }
 
-#clients h2 {
+.clients h2 {
     padding-top: 20px;
 }
 
-#clients-text {
+.clients-text {
     text-align: center;
     border-bottom: 1px solid black;
     padding-bottom: 20px;
@@ -192,17 +192,17 @@ h4 {
     padding-bottom: 20px;
 }
 
-h5 {
+h4 {
     color: goldenrod;
 }
 
 footer {
-    text-align: left;
     background-color: black;
     padding-top: 10px;
+    width: 100%;
 }
 
-footer h5 {
+footer h4 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -221,17 +221,27 @@ footer ul {
 }
 
 footer .list-footer {
-    margin-right: auto;
-    margin-left: auto;
+    list-style: none;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+    width: 215px;
 }
 
-#bottom-newsletter {
+footer .footer-icon-position {
+    display: flex;
+    justify-content: left;
+}
+
+
+.bottom-newsletter {
     display: flex;
     color: grey;
     justify-content: center;
 }
 
-#bottom-newsletter a {
+.bottom-newsletter a {
     padding-left: 7px;
     padding-right: 7px;
     font-size: 15px;
@@ -262,15 +272,18 @@ input[type=text] {
   }
 
 form .container {
-    text-align: center;
+    justify-content: center;
 }
 
-#recent-tweets {
+.recent-tweets {
     color: white;
 }
 
-#recent-tweets p{
+
+.recent-tweets p{
     margin-top: 0px;
+    display: block;
+    justify-content: center;
 }
 
 .tweet1 {
@@ -282,6 +295,7 @@ form .container {
 .tweet1 img {
     width: 18px;
     height: 15px;
+    margin: 0px;
 }
 
 .tweet1 p {
@@ -294,32 +308,30 @@ form .container {
     color: grey;
 }
 
-.time {
+time {
     color: grey;
     margin-left: 20px;
     margin-bottom: 5px;
 }
 
-.time2 {
-    color: grey;
-    margin-left: 20px;
+
+.recent-posts {
     padding-bottom: 10px;
 }
 
-#recent-posts {
-    padding-bottom: 10px;
-}
-
-#recent-posts ul {
+.recent-posts ul {
     list-style: none;
     display: block;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     padding: 0px;
-
 }
 
-#recent-posts a {
+.recent-posts li {
+    text-align: left;
+}
+
+.recent-posts a {
     text-decoration: none;
     color: white;
 }
@@ -344,7 +356,7 @@ form .container {
 
   .footer-icon-position-was {
     display: flex;
-    justify-content: left;
+    
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -353,16 +365,20 @@ form .container {
     height: 10px;
     width: 23px;
     padding-right: 10px;
-    vertical-align: middle;
+    justify-content: left;
 }
 
-#main-office {
+.main-office {
       color: white;
       padding-bottom: 50px;
+      display: block;
+      justify-content: left;
+      
   }
 
   .pointer {
       display: flex;
+      justify-content: left;
   }
 
   .pointer img {
@@ -378,6 +394,7 @@ form .container {
 
   .phone {
       display: flex;
+      justify-content: left;
   }
 
   .phone img {
@@ -390,8 +407,14 @@ form .container {
       margin-top: 0px;
   }
 
+  .phone a {
+      text-decoration: none;
+      color: white;
+  }
+
   .envelope {
       display: flex;
+      justify-content: left;
   }
 
   .envelope img {
@@ -404,18 +427,24 @@ form .container {
       margin-top: 0px;
   }
 
-  #footer-bottom {
+  .envelope a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-bottom {
       display: flex;
+      justify-content: space-between;
       padding-bottom: 10px;
       padding-top: 10px;
       border-top: 1px solid grey;
   }
 
-  .rights-reserved {
-      margin-left: 346px;
+  .rights-reserved p {
+      color: grey;
   }
 
-  @media screen and (min-width:1240px)
+  @media screen and (min-width:1024px)
   {
       body {
           width: 100%;
@@ -433,24 +462,10 @@ form .container {
         background-repeat: no-repeat;
     }
 
-    header #logo {
+    header .logo {
         position: absolute;
         top: 2px;
         left: 200px;
-    }
-
-    
-
-    #menu {
-        width: 100%;
-        position: absolute;
-        top: 2px;
-        right: 200px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-        list-style: none;
     }
 
     main:before {
@@ -459,34 +474,41 @@ form .container {
         top: -100px;
         right: 0;
         max-width: 100%;
-        border-left: 140vw solid transparent;
+        border-left: 100vw solid transparent;
         border-bottom: 100px solid white;
     }
 
-    main #main-list {
+    .main-list {
         display: flex;
-        text-align: center;
+    }
+
+    .main-list li {
+        margin: auto;
+    }
+
+    .six-photos {
+        overflow: hidden;
+    }
+      
+    .six-photos  ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         list-style: none;
-        justify-content: center;
-        width: 200px;
-        padding-left: 100px;
-        padding-right: 100px;
-        margin: 0px auto;
-    }
-
-    .row-no1 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .row-no2 {
-        display: flex;
-        justify-content: center;
-    }
-
-    #recent-work img {
-        padding: 5px;
-    }
+        margin: -20px;
+        padding: 0;
+      }
+      
+     .six-photos  li {
+        flex: 0 0 33.3333%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      
+    .photo-6photos {
+        max-width: 100%;
+        height: auto;
+      }
 
     section .the-team {
         display: flex;
@@ -507,25 +529,50 @@ form .container {
     footer .list-footer {
         display: flex;
         margin-bottom: 25px;
+        width: 860px;
+        margin: 0px auto;
+    }
+
+    footer img {
+        align-items: center;
     }
 
     .list-footer {
         width: 100%;
     }
 
+    .list-footer li {
+        text-align: left;
+    }
+
+    .recent-tweets li {
+        text-align: left;
+    }
+
+    .tweet1 {
+        justify-content: left;
+    }
+
+    .main-office li {
+        text-align: left;
+    }
+
+    .pointer {
+        justify-content: left;
+    }
+
+    .phone {
+        justify-content: left;
+    }
+
+    .envelope {
+        justify-content: left;
+    }
+
     .footer-bottom {
         padding-bottom: 0px;
     }
 
-    footer .social-media {
-        position: absolute;
-        left: 200px;
-    }
-
-    footer .rights-reserved {
-        position: absolute;
-        right: 200px;
-    }
-
   }
+
 
