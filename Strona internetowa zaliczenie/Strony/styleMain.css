@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
+    width: 100%;
 }
 
 @media screen and (min-width:1240px)
@@ -42,6 +43,7 @@ header {
     background-color: black;
     padding-bottom: 10px;
     height: 300px;
+    width: 100%;
 }
 
 main {
@@ -103,8 +105,6 @@ button {
     text-decoration: none;
 }
 
-
-
 .main {
     background-color: white; 
 }
@@ -144,7 +144,9 @@ section .image {
     max-width: 100%;
 }
 
-
+.recent-work {
+    display: block;
+}
 
 section .image-circle {
     display: block;
@@ -330,6 +332,7 @@ time {
 
 .recent-posts {
     padding-bottom: 10px;
+    justify-content: center;
 }
 
 .recent-posts ul {
@@ -338,10 +341,6 @@ time {
     justify-content: center;
     text-align: left;
     padding: 0px;
-}
-
-.recent-posts li {
-    text-align: left;
 }
 
 .recent-posts a {
@@ -508,10 +507,12 @@ time {
 
     .main-list {
         display: flex;
+        justify-content: center;
     }
 
     .main-list li {
-        margin: auto;
+        width: 205px;
+        margin: 0px 100px;
     }
 
     .six-photos {
@@ -550,15 +551,34 @@ time {
     }
 
     footer {
+        position: relative;
+    }
+    
+    footer:before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        right: 0;
+        max-width: 100%;
+        border-left: 160vw solid transparent;
+        border-bottom: 100px solid black;
+    }
+
+    footer {
+        width: 100%;
         height: 300px;
         margin-bottom: 0px;
     }
 
     footer .list-footer {
         display: flex;
-        margin-bottom: 25px;
-        width: 860px;
-        margin: 0px auto;
+        margin-bottom: 25px;  
+        width: 1600px;
+        margin: 0px auto;  
+    }
+
+    .list-footer li {
+        padding-left: 50px;
     }
 
     footer img {

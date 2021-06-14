@@ -1,7 +1,7 @@
 body {
     width: 100%;
     margin: 0;
-    padding: 0 0 50px;
+    padding: 0px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -113,13 +113,37 @@ section p {
     text-align: center;
 }
 
-.our-services {
+.grey-background {
+    background-color: #f7f7f7;
+    padding-top: 25px;
+}
+
+.services-flex {
     display: flex;
+    justify-content: center;
+}
+
+.our-services1 {
+    justify-content: center;
+    text-align: center;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
+.our-services2 {
     justify-content: center;
     text-align: center;
 }
 
-.service h5 {
+h3 {
+    font-size: 15px;
+}
+
+.service {
+    padding-top: 10px;
+}
+
+.service h3 {
     margin-bottom: 0px;
     margin-top: 0px;
     padding-left: 5px;
@@ -156,6 +180,10 @@ h4 {
     text-align: center;
 }
 
+.last-member-of-the-team {
+    padding-bottom: 100px;
+}
+
 
 
 
@@ -177,6 +205,20 @@ footer {
     background-color: black;
     padding-top: 10px;
     width: 100%;
+}
+
+footer {
+    position: relative;
+}
+
+footer:before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: 0;
+    max-width: 100%;
+    border-left: 160vw solid transparent;
+    border-bottom: 100px solid black;
 }
 
 footer h4 {
@@ -419,4 +461,97 @@ time {
 
   .rights-reserved p {
       color: grey;
+  }
+
+  @media screen and (min-width: 1024px) {
+      
+    body {
+        width: 100%;
+    }
+
+    section .the-team {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .image-circle {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    footer {
+        position: relative;
+        margin-top: 100px;
+    }
+
+    
+    
+    footer:before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        right: 0;
+        max-width: 100%;
+        border-left: 160vw solid transparent;
+        border-bottom: 100px solid black;
+    }
+
+    footer {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 0px;
+    }
+
+    footer .list-footer {
+        display: flex;
+        margin-bottom: 25px;  
+        width: 1600px;
+        margin: 0px auto;  
+    }
+
+    .list-footer li {
+        padding-left: 50px;
+    }
+
+    footer img {
+        align-items: center;
+    }
+
+    .list-footer {
+        width: 100%;
+    }
+
+    .list-footer li {
+        text-align: left;
+    }
+
+    .recent-tweets li {
+        text-align: left;
+    }
+
+    .tweet1 {
+        justify-content: left;
+    }
+
+    .main-office li {
+        text-align: left;
+    }
+
+    .pointer {
+        justify-content: left;
+    }
+
+    .phone {
+        justify-content: left;
+    }
+
+    .envelope {
+        justify-content: left;
+    }
+
+    .footer-bottom {
+        padding-bottom: 0px;
+    }
+
   }

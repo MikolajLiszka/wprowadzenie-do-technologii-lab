@@ -2,7 +2,22 @@ body {
     width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    padding: 0 0 50px;
+    padding: 0px;
+}
+
+main {
+    position: relative;
+}
+
+main:before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: 0;
+    max-width: 100%;
+    border-left: 320vw solid transparent;
+    border-bottom: 100px solid white;
+    margin-bottom: 0px;
 }
 
 .top-bar {
@@ -40,6 +55,7 @@ header {
 
 h1 {
     text-align: center;
+    padding-top: 50px;
 }
 
 .article-opacity h2 {
@@ -163,10 +179,15 @@ article p {
     justify-content: center;
 }
 
+
 .image-container ul {
     width: 1000px;
     margin: 0px auto;
     list-style: none;
+}
+
+.image-container .last-photo {
+    padding-bottom: 150px;
 }
 
 h4 {
@@ -187,6 +208,20 @@ footer h4 {
 footer .footer-icon {
     padding-right: 30px;
     width: 23px;
+}
+
+footer {
+    position: relative;
+}
+
+footer:before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: 0;
+    max-width: 100%;
+    border-left: 160vw solid transparent;
+    border-bottom: 100px solid black;
 }
 
 ul {
@@ -419,6 +454,140 @@ time {
 
   .rights-reserved p {
       color: grey;
+  }
+
+  @media screen and (min-width:1024px) {
+      body {
+        width: 100%;
+      }
+
+      main {
+        position: relative;
+    }
+    
+    main:before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        right: 0;
+        max-width: 100%;
+        border-left: 150vw solid transparent;
+        border-bottom: 100px solid white;
+        margin-bottom: 0px;
+    }
+
+    header {
+        height: 150px;
+    }
+
+    h1 {
+        padding: 0px;
+    }
+
+      .article-opacity {
+        margin-left: 0px
+      }
+
+
+      .row1-2 {
+        margin-left: auto;
+      }
+
+      .row3 {
+          margin-left: auto;
+      }
+
+      .main {
+          display: flex;
+      }
+
+      .overview {
+        margin: 0px;
+      }
+
+      .credits {
+        margin: 0px;
+      }
+
+      .photos {
+          margin-top: 20px;
+      }
+
+
+
+
+      footer {
+        position: relative;
+        margin-top: 100px;
+    }
+    
+    footer:before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        right: 0;
+        max-width: 100%;
+        border-left: 160vw solid transparent;
+        border-bottom: 100px solid black;
+    }
+
+    footer {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 0px;
+    }
+
+    footer .list-footer {
+        display: flex;
+        margin-bottom: 25px;  
+        width: 1600px;
+        margin: 0px auto;  
+    }
+
+    .list-footer li {
+        padding-left: 50px;
+    }
+
+    footer img {
+        align-items: center;
+    }
+
+    .list-footer {
+        width: 100%;
+    }
+
+    .list-footer li {
+        text-align: left;
+    }
+
+    .recent-tweets li {
+        text-align: left;
+    }
+
+    .tweet1 {
+        justify-content: left;
+    }
+
+    .main-office li {
+        text-align: left;
+    }
+
+    .pointer {
+        justify-content: left;
+    }
+
+    .phone {
+        justify-content: left;
+    }
+
+    .envelope {
+        justify-content: left;
+    }
+
+    .footer-bottom {
+        padding-bottom: 0px;
+    }
+
   }
 
 
