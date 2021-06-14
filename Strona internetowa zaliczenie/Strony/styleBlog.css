@@ -66,18 +66,15 @@ main:before {
 }
 
 main .main-picture {
-    width: 318px;
     height: 218px;;
 }
 
-main .box-picture {
-    width: 318px;
+.box-picture {
     margin: 0px auto;
     border-top: 1px solid #c9a686;
 }
 
-main .box {
-    width: 318px;
+.box {
     margin: 0px auto;
     border-right: 1px solid #c9a686;
     border-left: 1px solid #c9a686;
@@ -434,8 +431,14 @@ time {
     }
 
     .posts {
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr;
+        columns: 3;
+        column-gap: 25px;
+        column-fill: balance;
+    }
+
+    .box, .box-picture {
+        break-inside: avoid;
+        margin-bottom: 25px;
     }
 
     footer {

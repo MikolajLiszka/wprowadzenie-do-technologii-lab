@@ -5,11 +5,19 @@ body {
     padding: 0px;
 }
 
-main {
+.container {
+    max-width: calc(1000px + 2 * 32px); 
+    margin: 0 auto;
+    padding-right: 32px; 
+    padding-left: 32px;
+    width: 100%;
+}
+
+.header {
     position: relative;
 }
 
-main:before {
+.header:before {
     content: '';
     position: absolute;
     top: -50px;
@@ -45,7 +53,7 @@ main:before {
     border-bottom: 1px solid #c9a686;
 }
 
-header {
+.site-header {
     background-color: black;
     padding-bottom: 10px;
     width: 100%;
@@ -78,7 +86,6 @@ h1 {
     text-align: left;
     background-color: #ebebeb;
     opacity: 70%;
-    margin: 0px auto;
 }
 
 .article-opacity-div {
@@ -103,6 +110,11 @@ article p {
 
 .photo {
     background-image: url(banner-1391996_1920.jpg);
+    height: 425px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
 }
 
 .row1-2 {
