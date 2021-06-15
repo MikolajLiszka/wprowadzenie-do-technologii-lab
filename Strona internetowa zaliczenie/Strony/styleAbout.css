@@ -469,6 +469,14 @@ time {
         width: 100%;
     }
 
+    .container-margin {
+        max-width: calc(1000px + 2 * 32px); 
+        margin: 0 auto;
+        padding-right: 32px; 
+        padding-left: 32px;
+        width: 100%;
+    }
+
     section .the-team {
         display: flex;
         justify-content: center;
@@ -476,8 +484,8 @@ time {
     }
 
     .image-circle {
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
 
@@ -509,10 +517,11 @@ time {
         margin-bottom: 25px;  
         width: 1600px;
         margin: 0px auto;  
+        justify-content: flex-start;
     }
 
     .list-footer li {
-        padding-left: 50px;
+        padding-left: 30px;
     }
 
     footer img {

@@ -5,12 +5,8 @@ body {
     padding: 0px;
 }
 
-.container {
-    max-width: calc(1000px + 2 * 32px); 
-    margin: 0 auto;
-    padding-right: 32px; 
-    padding-left: 32px;
-    width: 100%;
+.container-margin {
+    margin: 0px auto;
 }
 
 .header {
@@ -122,8 +118,8 @@ article p {
     border-left: 1px solid black;
     border-right: 1px solid black;
     padding-top: 20px;
-    text-align: left;
-    margin: 0px auto;   
+    text-align: left; 
+    margin: 0px auto; 
 }
 
 .row1-2 h2 {
@@ -473,6 +469,23 @@ time {
         width: 100%;
       }
 
+      .container-margin {
+        max-width: calc(1000px + 2 * 32px); 
+        margin: 0 auto;
+        padding-right: 32px; 
+        padding-left: 32px;
+        width: 100%;
+    }
+
+        .container-margin-secify {
+        max-width: calc(1000px + 2 * 32px); 
+        margin: 0 auto;
+        padding-right: 32px; 
+        padding-left: 32px;
+        width: 100%;
+        display: flex;
+        }
+
       main {
         position: relative;
     }
@@ -483,8 +496,8 @@ time {
         top: -100px;
         right: 0;
         max-width: 100%;
-        border-left: 150vw solid transparent;
-        border-bottom: 100px solid white;
+        border-left: 190vw solid transparent;
+        border-bottom: 340px solid white;
         margin-bottom: 0px;
     }
 
@@ -496,17 +509,44 @@ time {
         padding: 0px;
     }
 
-      .article-opacity {
-        margin-left: 0px
+    h2 {
+        padding-top: 10px;
+    }
+
+    .margin {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .left-side {
+        padding-top: 320px;
+    }
+
+    .right-side {
+        padding-top: 320px;
+    }
+
+    .image-container {
+        overflow: hidden;
+    }
+      
+    .image-container  ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: -20px;
+        padding: 0;
       }
-
-
-      .row1-2 {
-        margin-left: auto;
+      
+     .image-container  li {
+        padding: 5px;
+        box-sizing: border-box;
       }
-
-      .row3 {
-          margin-left: auto;
+      
+    .one-image-container {
+        max-width: 100%;
+        height: auto;
       }
 
       .main {
@@ -530,7 +570,6 @@ time {
 
       footer {
         position: relative;
-        margin-top: 100px;
     }
     
     footer:before {
@@ -554,10 +593,11 @@ time {
         margin-bottom: 25px;  
         width: 1600px;
         margin: 0px auto;  
+        justify-content: flex-start;
     }
 
     .list-footer li {
-        padding-left: 50px;
+        padding-left: 30px;
     }
 
     footer img {
