@@ -154,6 +154,7 @@ section .image-circle {
     margin: 0 auto;
     max-width: 200px;
     border-radius: 50%;
+    object-fit: contain;
 }
 
 section h3 p {
@@ -494,13 +495,14 @@ time {
     }
 
     .title-box {
-        display: block;
-        width: 400px;
-        justify-content: left;
-        margin: 0px auto;
+        display: flex;
+        width: 400px;              
         margin-top: 150px;
-        padding-left: 200px;
+        padding-left: 650px;
+        justify-content: flex-start;
     }
+
+
 
     .title-box h1 {
         text-align: left;
