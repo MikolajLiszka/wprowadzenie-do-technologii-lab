@@ -109,11 +109,16 @@ main .reaction {
 
 .box-picture .main-picture {
     width: 100%;
+    object-fit: cover;
 }
 
 .reactions p {
     color: #c9a686;
 
+}
+
+.reactions {
+    justify-content: space-between;
 }
 
 .box-picture {
@@ -127,12 +132,10 @@ main .reaction {
 }
 
 .calendar {
-    border-right: 1px solid #c9a686;
     padding-top: 5px;
 }
 
 .comments {
-    border-right: 1px solid #c9a686;
     padding-top: 6px;
 }
 

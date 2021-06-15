@@ -5,6 +5,7 @@ body {
     padding: 0px;
 }
 
+
 .container-margin {
     margin: 0px auto;
 }
@@ -486,18 +487,18 @@ time {
         display: flex;
         }
 
-      main {
+      .header {
         position: relative;
     }
     
-    main:before {
+    .header:before {
         content: '';
         position: absolute;
-        top: -100px;
+        top: -50px;
         right: 0;
         max-width: 100%;
-        border-left: 190vw solid transparent;
-        border-bottom: 340px solid white;
+        border-left: 380vw solid transparent;
+        border-bottom: 100px solid white;
         margin-bottom: 0px;
     }
 
@@ -505,10 +506,7 @@ time {
         height: 150px;
     }
 
-    h1 {
-        padding: 0px;
-    }
-
+    
     h2 {
         padding-top: 10px;
     }
@@ -519,7 +517,7 @@ time {
     }
 
     .left-side {
-        padding-top: 320px;
+        padding-top: 375px;
     }
 
     .right-side {
@@ -555,6 +553,7 @@ time {
 
       .overview {
         margin: 0px;
+        padding-top: 50px;
       }
 
       .credits {

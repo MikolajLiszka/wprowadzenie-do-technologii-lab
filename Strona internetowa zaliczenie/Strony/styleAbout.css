@@ -119,21 +119,23 @@ section p {
 }
 
 .services-flex {
+    overflow: hidden;
+  }
+  
+  .our-services {
     display: flex;
-    justify-content: center;
-}
-
-.our-services1 {
-    justify-content: center;
-    text-align: center;
-    padding-right: 100px;
-    padding-bottom: 25px;
-}
-
-.our-services2 {
-    justify-content: center;
-    text-align: center;
-}
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: -20px;
+    padding: 0;
+  }
+  
+  .services {
+    flex: 0 0 33.3333%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
 
 h3 {
     font-size: 15px;
@@ -487,6 +489,25 @@ time {
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    .services-flex {
+        overflow: hidden;
+      }
+      
+      .our-services {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        padding-bottom: 50px;
+        padding-top: 20px;
+      }
+      
+      .services {
+        flex: 0 0 16.6666%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
 
 
     footer {
