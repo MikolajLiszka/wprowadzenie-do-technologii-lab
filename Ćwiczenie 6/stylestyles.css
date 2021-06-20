@@ -40,3 +40,84 @@ h1 {
     line-height: 32px;
     font-family: 'aleoitalic';
 }
+
+.grey-text {
+    color: #656a6f;
+    font-size: 17px;
+}
+
+.highlight-span {
+    color: #ffc000;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 25px;
+    color: #ffc000;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: #ffc000;
+}
+
+button {
+    border: none;
+    background-color: #ffc000;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.regular-button {
+    font-weight: normal;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.small-button {
+    font-weight: normal;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.extra-small-button {
+    font-weight: normal;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.five-images {
+    list-style: none;
+}
+
+.image {
+    object-fit: cover;
+    box-sizing: border-box;
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
