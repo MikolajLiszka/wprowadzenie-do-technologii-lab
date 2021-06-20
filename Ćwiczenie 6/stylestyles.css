@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    font: 16px/24px 'robotoregular';
+}
+
+.logo {
+    width: 131px;
+    height: 52px;
+    margin: 0px auto;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    display: none;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+select {
+    overflow: visible;
+    width: 100%;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.subheading, blockquote {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'aleoitalic';
+}

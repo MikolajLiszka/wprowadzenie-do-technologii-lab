@@ -1,0 +1,110 @@
+body {
+    width: 100%;
+}
+
+header {
+    background-image: url(background.jpg);
+    background-position: center center;
+}
+
+.logo {
+    width: 131px;
+    height: 52px;
+    margin: 0px auto;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    display: none;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+select {
+    overflow: visible;
+    width: 100%;
+}
+
+section ul {
+    list-style: none;
+}
+
+footer {
+    border-top: 1px solid black;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media img {
+    width: 31px;
+    height: 31px;
+}
+
+.social-media li {
+    padding: 0 5px;
+}
+
+.logo-footer {
+    width: 45px;
+    height: 19px;
+}
+
+.selfy-copywrite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 601px) 
+{
+    
+}
+
+@media screen and (min-width: 769px)
+{
+ .logo {
+    margin-left: 20px;
+ }  
+
+ .nav {
+     justify-content: space-between;
+     margin-left: 150px;
+     margin-right: 150px;
+     display: flex;
+ }
+
+ select {
+     display: none;
+ }
+
+ .container {
+     display: flex;
+ }
+
+ .container li {
+     padding-left: 25px;
+     padding-right: 25px;
+ }
+}
+
+@media screen and (min-width: 869px) 
+{
+    .flex-header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
