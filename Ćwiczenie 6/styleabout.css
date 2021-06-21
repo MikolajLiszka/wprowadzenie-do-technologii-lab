@@ -1,11 +1,15 @@
 body {
     width: 100%;
+    background-color: #f3f4f5;
+    margin: 0px;
+    font: 16px/24px 'robotoregular';
 }
 
 .logo {
     width: 131px;
     height: 52px;
     margin: 0px auto;
+    margin-top: 25px;
 }
 
 .nav {
@@ -25,13 +29,23 @@ body {
     text-decoration: none;
 }
 
+.select {
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+
 select {
     overflow: visible;
     width: 100%;
+    margin-top: 25px;
 }
 
 section ul {
     list-style: none;
+}
+
+.header-margin {
+    margin: 0px 20px;
 }
 
 .main-image {
@@ -40,10 +54,35 @@ section ul {
     flex: 0 0 100%;
     max-width: 100%;
     height: auto;
+    border: 7px solid white;
+    margin-top: 50px;
+}
+
+.main-margin {
+    margin: 0px 20px;
 }
 
 h1 {
     text-align: left;
+    font-size: 56px;
+}
+
+.title-square {
+    display: flex;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: #ffc000;
+    border-radius: 20%;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+
+main p {
+    color: grey;
+    font-size: 18px;
 }
 
 footer {
@@ -61,6 +100,10 @@ footer {
     height: 31px;
 }
 
+.social-media {
+    padding-top: 50px;
+}
+
 .social-media li {
     padding: 0 5px;
 }
@@ -74,6 +117,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 150px;
 }
 
 @media screen and (min-width: 601px) 

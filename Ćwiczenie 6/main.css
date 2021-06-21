@@ -1,5 +1,8 @@
 body {
     width: 100%;
+    margin: 0px;
+    font: 16px/24px 'robotoregular';
+    background-color: #f3f4f5;
 }
 
 header {
@@ -7,10 +10,15 @@ header {
     background-position: center center;
 }
 
+.header-margin {
+    margin: 0px 20px;
+}
+
 .logo {
     width: 131px;
     height: 52px;
     margin: 0px auto;
+    margin-top: 25px;
 }
 
 .nav {
@@ -33,10 +41,70 @@ header {
 select {
     overflow: visible;
     width: 100%;
+    margin-top: 25px;
 }
 
 section ul {
     list-style: none;
+}
+
+h1 {
+    color: white;
+    font-size: 56px;
+    border-top: 1px solid white;
+    padding-top: 100px;
+}
+
+header h2 {
+    color: white;
+}
+
+header p {
+    padding-top: 50px;   
+    padding-bottom: 50px;
+}
+
+.read-more a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.read-more a:hover {
+    color: #ffc000;
+}
+header p {
+    color: white;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    background-color: #ffc000;
+    border-radius: 20%;
+    margin-top: 43px;
+    margin-left: 5px;
+}
+
+.title-square {
+    display: flex;
+}
+
+.main-margin {
+    margin: 0px 20px;
+}
+
+main h2 {
+    font-size: 35px;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    color: #ffc000;
 }
 
 footer {
@@ -99,6 +167,11 @@ footer {
      padding-left: 25px;
      padding-right: 25px;
  }
+
+ footer {
+    display: flex;
+    justify-content: space-between;
+}
 }
 
 @media screen and (min-width: 869px) 
@@ -107,4 +180,5 @@ footer {
         display: flex;
         justify-content: space-between;
     }
+
 }

@@ -1,6 +1,16 @@
 body {
     width: 100%;
     font: 16px/24px 'robotoregular';
+    background-color: #f3f4f5;
+    margin: 0px;
+}
+
+header {
+    margin: 0px 20px;
+}
+
+main {
+    margin: 0px 20px;
 }
 
 .logo {
@@ -31,15 +41,19 @@ select {
     width: 100%;
 }
 
+.select {
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+
 h1 {
     font-size: 56px;
 }
 
-.subheading, blockquote {
-    font-size: 24px;
-    line-height: 32px;
-    font-family: 'aleoitalic';
+hr {
+    margin-bottom: 50px;
 }
+
 
 .grey-text {
     color: #656a6f;
@@ -111,6 +125,7 @@ button:hover {
 
 .five-images {
     list-style: none;
+    padding-left: 0px;
 }
 
 .image {
@@ -120,4 +135,220 @@ button:hover {
     max-width: 100%;
     height: auto;
     cursor: pointer;
+    border: 7px solid white;
+}
+
+.pause {
+    border-bottom: 1px dashed grey;
+}
+
+.dotted {
+    border-bottom: 1px dotted grey;
+}
+
+.buttons {
+    padding-bottom: 50px;
+}
+
+.border-top {
+    border-top: 1px solid grey;
+}
+
+table {
+    border: 1px solid grey;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid grey;   
+}
+
+.pink {
+    background-color: #ebedef;
+}
+
+.light-pink {
+    background-color: #dde1e5;
+}
+
+.subheading, blockquote {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'aleoitalic';
+}
+
+.popout-image {
+    object-fit: cover;
+    box-sizing: border-box;
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    border: 7px solid white;
+}
+
+.footer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer img {
+    width: 31px;
+    height: 31px;
+}
+
+.logo-footer {
+    width: 45px;
+    height: 19px;
+}
+
+.selfy-copywrite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 601px) 
+{
+    .select {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    select {
+        max-width: 100px;
+    }
+}
+
+@media screen and (min-width: 769px) 
+{
+    main {
+        display: grid;
+        grid-template-columns: auto 200px;
+    }
+
+    .grid-left {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .grid-right {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+    }
+
+    .five-images {
+        display: grid;
+        grid-template-columns: 6;
+        grid-template-rows: 3;
+    }
+
+    .image1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    
+    .image5, .image4, .image6 {
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+
+    .text-grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 6;
+    }
+
+    .first-text {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+
+    .second-text {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 7;
+        grid-column-end: 13;
+    }
+
+    .third-text {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .fourth-row {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 5;
+        grid-column-end: 9;
+    }
+
+    .fifth-row {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 9;
+        grid-column-end: 13;
+    }
+
+    .sixth-row {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .seventh-row {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 4;
+        grid-column-end: 7;
+    }
+
+    .eighth-row {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 7;
+        grid-column-end: 10;
+    }
+
+    .ninth-row {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 10;
+        grid-column-end: 13;
+    }
+
+    .tenth-row {
+        grid-row-start: 4;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    select {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
 }
