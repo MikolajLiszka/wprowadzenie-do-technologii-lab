@@ -29,6 +29,37 @@ body {
     text-decoration: none;
 }
 
+button {
+    background-color: none;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav button {
+    border-style: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.nav a {
+    color: black;
+    font-size: 18px;
+}
+
+.active-button {
+    background-color: #ffc000;
+}
+
+.active-button a {
+    color: white;
+}
+
+.nav button:hover {
+    background-color: #656a6f;
+}
+
 .select {
     padding-bottom: 50px;
     border-bottom: 1px solid grey;
@@ -115,6 +146,7 @@ blockquote {
     border: 7px solid white;
     margin-top: 50px;
     margin-bottom: 50px;
+    max-width: 732px;
 }
 
 .post-border {    

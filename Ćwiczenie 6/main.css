@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    background-image: url(background.jpg);
     background-position: center center;
 }
 
@@ -32,10 +31,38 @@ header {
 
 .nav li {
     padding: 10px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: none;
 }
 
 .nav a {
     text-decoration: none;
+}
+
+.nav button {
+    border-style: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.nav a {
+    color: black;
+    font-size: 18px;
+}
+
+.active-button {
+    background-color: #ffc000;
+}
+
+.active-button a {
+    color: white;
+}
+
+.nav button:hover {
+    background-color: #656a6f;
 }
 
 select {
@@ -46,6 +73,13 @@ select {
 
 section ul {
     list-style: none;
+}
+
+.background-image {
+    background-image: url(background.jpg);
+    background-position: center center;
+    max-width: none;
+    height: 500px;
 }
 
 h1 {
@@ -107,6 +141,10 @@ main a:hover {
     color: #ffc000;
 }
 
+.main-margin {
+    margin: 0px 20px;
+}
+
 footer {
     border-top: 1px solid black;
 }
@@ -144,6 +182,10 @@ footer {
 
 @media screen and (min-width: 769px)
 {
+    h1 {
+        font-size: 70px;
+    }
+
  .logo {
     margin-left: 20px;
  }  
@@ -157,6 +199,14 @@ footer {
 
  select {
      display: none;
+ }
+
+ .background-image {
+     height: 1000px;
+ }
+
+ .position-header {
+     
  }
 
  .container {
@@ -181,4 +231,12 @@ footer {
         justify-content: space-between;
     }
 
+}
+
+@media screen and (min-width: 1124px) 
+{
+    main, footer, .header-margin {
+        width: 1124px;
+        margin: 0px auto;
+    }
 }

@@ -5,6 +5,10 @@ body {
     font: 16px/24px 'robotoregular';
 }
 
+main section {
+    margin: 0px 20px;
+}
+
 .logo {
     width: 131px;
     height: 52px;
@@ -27,6 +31,37 @@ body {
 
 .nav a {
     text-decoration: none;
+}
+
+button {
+    background-color: none;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav button {
+    border-style: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.nav a {
+    color: black;
+    font-size: 18px;
+}
+
+.active-button {
+    background-color: #ffc000;
+}
+
+.active-button a {
+    color: white;
+}
+
+.nav button:hover {
+    background-color: #656a6f;
 }
 
 .select {
@@ -98,7 +133,7 @@ h2 {
     margin-bottom: 25px;
     padding: 10px;
     border: 1px lightgray solid;
-    
+    width: 100%;
 }
 
 input[type="submit"] {
@@ -184,4 +219,79 @@ footer {
     justify-content: center;
     align-items: center;
     padding-bottom: 150px;
+}
+
+@media screen and (min-width: 601px) 
+{
+    .select {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    select {
+        max-width: 100px;
+    }
+}
+
+@media screen and (min-width: 769px) 
+{
+    select {
+        display: none;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: auto 300px;
+    }
+
+    .left-side {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .right-side {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .post {
+        display: flex;
+    }
+
+    .post-border {
+        display: flex;
+    }
+
+    .title-square {
+        width: 342px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 869px) 
+{
+    .flex-header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1124px) 
+{
+    body {
+        width: 1124px;
+        margin: 0px auto;
+    }
 }

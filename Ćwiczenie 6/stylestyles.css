@@ -17,6 +17,7 @@ main {
     width: 131px;
     height: 52px;
     margin: 0px auto;
+    margin-top: 15px;
 }
 
 .nav {
@@ -26,6 +27,7 @@ main {
     flex-wrap: nowrap;
     justify-content: flex-end;
     display: none;
+    margin-top: 25px;
 }
 
 .nav li {
@@ -34,6 +36,33 @@ main {
 
 .nav a {
     text-decoration: none;
+}
+
+.nav button {
+    border-style: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.nav a {
+    color: black;
+    font-size: 18px;
+}
+
+.menu-button {
+    background-color: #f3f4f5;
+}
+
+.active-button {
+    background-color: #ffc000;
+}
+
+.active-button a {
+    color: white;
+}
+
+.nav button:hover {
+    background-color: #656a6f;
 }
 
 select {
@@ -94,13 +123,6 @@ h6 {
     color: #ffc000;
 }
 
-button {
-    border: none;
-    background-color: #ffc000;
-    color: white;
-    cursor: pointer;
-}
-
 button:hover {
     background-color: grey;
 }
@@ -109,18 +131,30 @@ button:hover {
     font-weight: normal;
     font-size: 18px;
     padding: 10px;
+    border: none;
+    background-color: #ffc000;
+    color: white;
+    cursor: pointer;
 }
 
 .small-button {
     font-weight: normal;
     font-size: 14px;
     padding: 10px;
+    border: none;
+    background-color: #ffc000;
+    color: white;
+    cursor: pointer;
 }
 
 .extra-small-button {
     font-weight: normal;
     font-size: 12px;
     padding: 8px;
+    border: none;
+    background-color: #ffc000;
+    color: white;
+    cursor: pointer;
 }
 
 .five-images {
@@ -179,6 +213,41 @@ td {
     font-family: 'aleoitalic';
 }
 
+.forms-block {
+    display: block;
+    margin: 25px 0px;
+}
+
+.label-checkbox {
+    margin: 25px 0px;
+}
+
+textarea {
+    width: 96%;
+    height: 140px;
+}
+
+.inner {
+    width: 94%;
+}
+
+.inner label{
+    display: block;
+}
+
+.forms {
+    display: block;
+    margin: 25px 0px;
+}
+
+.form-button {
+    border-style: none;
+    padding: 8px;
+    background-color: #ffc000;
+    border-radius: 4px;
+    color: white;
+}
+
 .popout-image {
     object-fit: cover;
     box-sizing: border-box;
@@ -230,6 +299,13 @@ td {
         grid-template-columns: auto 200px;
     }
 
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
     .grid-left {
         grid-column-start: 1;
         grid-column-end: 1;
@@ -240,6 +316,15 @@ td {
         grid-column-end: 2;
         grid-row-start: 1;
     }
+
+    .two-pics {
+        display: flex;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+    
 
     .five-images {
         display: grid;
@@ -315,7 +400,7 @@ td {
         grid-column-end: 7;
     }
 
-    .eighth-row {
+    .eigtht-row {
         grid-row-start: 3;
         grid-row-end: 3;
         grid-column-start: 7;
@@ -333,7 +418,49 @@ td {
         grid-row-start: 4;
         grid-row-end: 4;
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 4;
+    }
+
+    .eleventh-row {
+        grid-row-start: 4;
+        grid-row-end: 4;
+        grid-column-start: 4;
+        grid-column-end: 7;
+    }
+
+    .twelveth-row {
+        grid-row-start: 4;
+        grid-row-end: 4;
+        grid-column-start: 7;
+        grid-column-end: 13;
+    }
+
+    .thirteenth-row {
+        grid-row-start: 5;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .fourteenth-row {
+        grid-row-start: 5;
+        grid-row-end: 5;
+        grid-column-start: 4;
+        grid-column-end: 13;
+    }
+
+    .fifteenth-row {
+        grid-row-start: 6;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 9;
+    }
+
+    .sixteenth {
+        grid-row-start: 6;
+        grid-row-end: 6;
+        grid-column-start: 9;
+        grid-column-end: 13;
     }
 
     select {
@@ -350,5 +477,21 @@ td {
     footer {
         display: flex;
         justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 869px) 
+{
+    .flex-header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1124px) 
+{
+    body {
+        width: 1124px;
+        margin: 0px auto;
     }
 }
