@@ -161,6 +161,10 @@ footer {
     select {
         max-width: 100px;
     }
+
+    .social-media {
+        padding: 0px;
+    }
 }
 
 @media screen and (min-width: 769px) 
