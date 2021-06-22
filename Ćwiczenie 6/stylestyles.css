@@ -296,7 +296,7 @@ textarea {
 {
     main {
         display: grid;
-        grid-template-columns: auto 200px;
+        grid-template-columns: auto 300px;
     }
 
     .nav {
@@ -315,6 +315,9 @@ textarea {
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
+        margin: 25px 0px;
+        border-left: 1px solid grey;
+        padding-left: 25px;
     }
 
     .two-pics {
@@ -463,6 +466,10 @@ textarea {
         grid-column-end: 13;
     }
 
+    iframe {
+        width: 100%;
+    }
+
     select {
         display: none;
     }
@@ -472,6 +479,10 @@ textarea {
         justify-content: space-between;
         margin-left: 150px;
         margin-right: 150px;
+    }
+
+     {
+
     }
 
     footer {

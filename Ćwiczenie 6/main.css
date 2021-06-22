@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-position: center center;
+    background-color: #a5adb0;
 }
 
 .header-margin {
@@ -76,10 +76,16 @@ section ul {
 }
 
 .background-image {
-    background-image: url(background.jpg);
+    background-image: url(masthead@2x.jpg);
+    background-size: 1000px;
     background-position: center center;
     max-width: none;
     height: 500px;
+    opacity: 50%;
+}
+
+.position-header {
+    margin: 0px 20px;
 }
 
 h1 {
@@ -205,9 +211,11 @@ footer {
      height: 1000px;
  }
 
- .position-header {
-     
- }
+ .background-image {
+    background-size: 2200px;
+    height: 800px;
+    opacity: 100%;
+}
 
  .container {
      display: flex;
@@ -238,5 +246,14 @@ footer {
     main, footer, .header-margin {
         width: 1124px;
         margin: 0px auto;
+    }
+
+    .position-header {
+        width: 1124px;
+        margin: 0px auto
+    }
+
+    .position-header p{
+        width: 600px;
     }
 }
