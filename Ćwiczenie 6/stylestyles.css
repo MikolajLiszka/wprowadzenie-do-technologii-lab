@@ -468,6 +468,7 @@ textarea {
 
     iframe {
         width: 100%;
+        height: 100%;
     }
 
     select {
@@ -481,11 +482,31 @@ textarea {
         margin-right: 150px;
     }
 
-     {
+    .blockquotes-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2;
+    }
 
+    .left-blockquotes {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .right-blockquotes {
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+
+    .left-blockquotes2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
     }
 
     footer {
+        margin-top: 200px;
         display: flex;
         justify-content: space-between;
     }
