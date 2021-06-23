@@ -5,6 +5,14 @@ body {
     font: 16px/24px 'robotoregular';
 }
 
+.grid-left {
+    margin: 0px 20px;
+}
+
+.grid-right {
+    margin: 0px 20px;
+}
+
 h2 {
     font-size: 35px;
 }
@@ -38,7 +46,7 @@ h3 {
 }
 
 button {
-    background-color: none;
+    background-color: #f3f4f5;
 }
 
 .nav a {
@@ -169,6 +177,12 @@ blockquote {
     font-size: 18px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.yellow-text {
+    color: grey;
+    font-size: 18px;
+    color: #ffc000;
 }
 
 .image {
